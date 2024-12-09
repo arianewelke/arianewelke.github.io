@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <!--Meta tags-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--Title-->
+        <title>Portifólio Ariane Welke</title>
+
+        <!--CSS-->
+        <link rel="stylesheet" href="css/extends.css" />
+
+        <!--Fonts-->
+        <link real="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+
+        <!--Navbar-->
+        <nav class="navbar">
+            <div class="navbar__content max-width mb-0">
+                <a href="/">
+                    <img src="assets/logo-3.png" alt="Ariane Welke" />
+                </a>
+                <ul class="navbar__links">
+                    <li><a href="#header">Início</a></li>  
+                    <li><a href="#about">Sobre</a></li>  
+                    <li><a href="#projects">Projetos</a></li>  
+                    <li><a href="#footer">Contato</a></li>  
+                </ul>
+
+                <!--Navbar Mobile-->
+                <div class="navbar__mobile">
+                  <img src="assets/bars-solid.svg" alt="menu" class="burguer" />
+                    <ul class="mobile__links">
+                        <li><a href="#header">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                        <li><a href="#footer">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--inicio-->
+        <header id="header" class="max-width">
+            <div class="header__left">
+                <h1>Olá! Sou Ariane Welke Desenvolvedora de Software</h1>
+                <p>
+                    Sou estudante de Análise e desenvolvimento de Sistemas na UNINTER e estagiária full-stack na Compass UOL. Atualmente estou trabalhando com JAVA, Spring Boot e React.
+                    Amo passar meu tempo com meus gatinhos (Mimi, Petisco e Frajola), tomar um bom café com os amigos e praticar Crossfit! 
+                    Por aqui você vai saber mais sobre minha trajetória e meus projetos desenvolvidos. Prazer em conhece-lo(a)!
+                </p>
+                <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+            </div>
+            <div class="header__right">
+                <div class="header__image">
+                    <img src="assets/ariane.jpg" alt="Ariane Welke" class="ariane" />
+                    <img src="assets/abstract-1.png" alt="background" class="background"/>
+            </div>    
+        </header>
+    
+        <!--Sobre mim-->
+        <selection id="about" class="about max-width">
+          <div class="about__left">
+            <h2 class="secondary-title"> Conecte-se comigo </h2>
+            <p>
+              Que tal se conectar comigo nas redes sociais e saber mais sobre meu trabalho?
+            </p>
+            <ul>
+              <li>
+                <a href="https://github.com/arianewelke" target="_blank"><img src="assets/github.svg" alt="GitHub" style="height: 40px;" /></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/arianewelke/" target="_blank"><img src="assets/linkedin.svg" alt="LinkedIn" style="height: 40px;" /></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="about__right">
+            <h3 class="tertiaty-title mb -m">
+              Quem sou eu? </h3>
+              <br>
+              <p>
+                Sou formada no curso técnico em Química e Engenharia de Alimentos, por sempre gostar de aprender na prática e ambos possuírem muitos experimentos. Estudei na UFPR Jandaia do sul, onde tomei a decisão de mudar para uma cidade nova e apesar de não conhecer ninguém lá, vi a oportunidade de me desenvolver pessoal e profissionalmente. Foi um período onde aprendi administrar minha vida financeira, meu tempo e morar com pessoas de outras culturas.
+              </p>
+              <p>
+                Por conta de algumas mudanças de cidade em prol da minha carreira, atualmente busco por qualidade de vida, flexibilidade e mais opções de vagas no mercado.
+              </p>
+              <p>
+                Após conversa com amigos e familiares me foi sugerida a área de tecnologia, pois está em todas as empresas atualmente e as vagas podem ser híbridas ou remotas, além de presenciais. Durante minha graduação tive a matéria de algoritmos onde aprendi lógica da programação com python e na época achei muito interessante.
+              <p>
+                Unindo o conhecimento de engenharia e a curiosidade por tecnologia decidi começar a cursar ADS para explorar as áreas de tecnologia, para então ser referência no assunto se tornando especialista.
+              </p>
+          </div>
+        </selection>   
+        
+        <!--Projetos-->
+
+        <section id="projects" class="projects max-width">
+            <div class="projects__content">
+              <h2 class="secondary-title">Projetos em Destaque</h2>
+              <p>
+                De ideias abstratas a projetos bem-sucedidos, aqui estão alguns dos
+                meus trabalhos mais recentes
+              </p>
+            </div>
+            <ul>
+              <li>
+                <div class="image">
+                  <img src="assets/Adalovelace.jpg" alt="Minha primeira API" />
+                </div>
+                <div class="projects__info">
+                  <h3 class="tertiary-title">
+                    Minha primeira API
+                  </h3>
+                  <p>
+                    Sistema web desenvolvido para apresentar as mulheres em destaque na tecnologia. Durante o desenvolvimento aprendi sobre lógica da programação, criar meu primeiro servidor com método HTTP, integrar com o banco de dados MongoDB e realizar o deploy, além de dias de carreira.
+                  </p>
+                  <a href="https://github.com/arianewelke/meu-primeiro-projeto-back-end">Leia mais &rarr;</a>
+                </div>
+              </li>
+              <li class="projects__reversed-list">
+                <div class="image">
+                  <img src="assets/chess.jpeg" alt="Jogo de Xadrez" />
+                </div>
+                <div class="projects__info">
+                  <h3 class="tertiary-title">
+                    Desenvolvimento de um jogo de xadrez com Java
+                  </h3>
+                  <p>
+                    Projeto para aplicar os conhecimentos desenvolvidos em um curso de JAVA completo. 
+                  </p>
+                  <a href="https://github.com/arianewelke/chess-system-java">Leia mais &rarr;</a>
+                </div>
+              </li>
+            </ul>
+        </section>
+      
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer__content max-width mb-0">
+              <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+              <p class="mb-m">
+                Ficarei feliz em saber mais sobre seus projetos e como podemos
+                trabalhar juntos.
+              </p>
+              <div class="footer__contact mb-m">
+                <span class="mb-m">arianewelkep97@gmail.com</span>
+              </div>
+              <ul class="mb-l">
+                <li>
+                  <a href="https://github.com/arianewelke" target="_blank"><img src="assets/github.svg" alt="GitHub" style="height: 40px;" /></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/arianewelke/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin" style="height: 40px;" /></a>
+                </li>
+
+              </ul>
+              <p class="footer__copyright">
+                © 2024 Ariane Welke. Todos os direitos reservados.
+              </p>
+            </div>
+        </footer>
+        <!-- script -->
+        <script src="scripts/index.js"></script>
+    </body>
+</html>
